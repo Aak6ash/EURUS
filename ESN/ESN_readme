@@ -1,0 +1,8 @@
+This folder has ESN models file.
+esn.py trains the model and handles the hyper-parameters.
+ESN.py, ESNcell.py and RRcell.py are the backends of the ESN architecture.
+stacked_esn.py trains the model and handles the hyper-parameters.
+StackedESN.py, s_ESNcell.py and RRcell.py are the backends of the Stacked ESN architecture.
+
+The ESN model is trained by BackPropagation instead of the usual Moore-Pseudo inverse, as Backpropagation is more flexible while
+giving comparable results.
